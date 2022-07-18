@@ -17,9 +17,7 @@ def dynamicArray(n,queries):
             answers.append(lastAnswer)
     return answers
 
-x=[int(i) for i in input().split(' ',1)]
-a=x[0]
-b=x[1]
+a,b=[int(i) for i in input().split(' ',1)]
 queries=[]
 for i in range(b):
     q=[int(num) for num in input().split(' ',b-1)]
